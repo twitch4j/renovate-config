@@ -1,0 +1,32 @@
+{
+  "packageRules": [
+    {
+      "groupName": "jackson",
+      "matchPackagePatterns": [
+        "^com\\.fasterxml\\.jackson"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "reactor",
+      "matchPackagePatterns": [
+        "^io\\.projectreactor"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "junit",
+      "matchPackagePatterns": [
+        "^org\\.junit\\.jupiter"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "resilience4j",
+      "matchPackagePatterns": [
+        "^io\\.github\\.resilience4j"
+      ],
+      "matchDatasources": ["maven"]
+    }
+  ]
+}
