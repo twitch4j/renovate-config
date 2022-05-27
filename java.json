@@ -8,7 +8,7 @@
         ".gradle.kts$"
       ],
       "matchStrings": [
-        "\"https:\/\/javadoc.io\/doc\/(?<group>.*?)\/(?<name>.*?)\/(?<currentValue>.*?)\/?\""
+        "\"https:\/\/(?:www\\.)?javadoc.io\/doc\/(?<group>.*?)\/(?<name>.*?)\/(?<currentValue>.*?)\/?\""
       ],
       "depNameTemplate": "{{{group}}}:{{{name}}}"
     }
