@@ -27,6 +27,13 @@
         "^io\\.github\\.resilience4j"
       ],
       "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "jetbrains-kotlinx",
+      "matchPackagePatterns": [
+        "^org\\.jetbrains\\.kotlinx"
+      ],
+      "matchDatasources": ["maven"]
     }
   ]
 }
