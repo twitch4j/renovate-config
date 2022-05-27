@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
       "groupName": "com.fasterxml.jackson",
@@ -16,8 +17,19 @@
     },
     {
       "groupName": "org.junit.jupiter",
-      "matchPackagePatterns": [
-        "^org\\.junit\\.jupiter"
+      "packageNames": [
+        "org.junit.jupiter:junit-jupiter-api",
+        "org.junit.jupiter:junit-jupiter-params",
+        "org.junit.jupiter:junit-jupiter-engine",
+        "org.junit.vintage:junit-vintage-engine"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "org.mockito",
+      "packageNames": [
+        "org.mockito:mockito-core",
+        "org.mockito:mockito-junit-jupiter"
       ],
       "matchDatasources": ["maven"]
     },
@@ -32,6 +44,27 @@
       "groupName": "org.jetbrains.kotlinx",
       "matchPackagePatterns": [
         "^org\\.jetbrains\\.kotlinx"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "com.github.philippheuer.events4j",
+      "matchPackagePatterns": [
+        "^com\\.github\\.philippheuer\\.events4j"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "io.github.openfeign",
+      "matchPackagePatterns": [
+        "^io\\.github\\.openfeign"
+      ],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "com.apollographql.apollo",
+      "matchPackagePatterns": [
+        "^com\\.apollographql\\.apollo"
       ],
       "matchDatasources": ["maven"]
     }
