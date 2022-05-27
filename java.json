@@ -1,5 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "regexManagers": [
+    {
+      "datasourceTemplate": "maven",
+      "fileMatch": [
+        ".gradle$",
+        ".gradle.kts$"
+      ],
+      "matchStrings": [
+        "https://javadoc.io/doc/(?<group>.*?)/(?<name>.*?)/(?<currentValue>.*?)/?"
+      ],
+      "depNameTemplate": "{{{group}}}:{{{name}}}"
+    }
+  ],
   "packageRules": [
     {
       "groupName": "com.fasterxml.jackson",
