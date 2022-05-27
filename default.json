@@ -6,6 +6,8 @@
     ":prHourlyLimitNone",
     ":prConcurrentLimitNone",
     ":disableDependencyDashboard",
+    ":separateMultipleMajorReleases",
+    ":combinePatchMinorReleases",
     "github>twitch4j/renovate-config:java"
   ],
   "labels": [
