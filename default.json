@@ -8,6 +8,7 @@
     ":disableDependencyDashboard",
     ":separateMultipleMajorReleases",
     ":combinePatchMinorReleases",
+    ":pinVersions",
     "github>twitch4j/renovate-config:java"
   ],
   "labels": [

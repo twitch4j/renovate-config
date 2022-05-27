@@ -1,35 +1,35 @@
 {
   "packageRules": [
     {
-      "groupName": "jackson",
+      "groupName": "com.fasterxml.jackson",
       "matchPackagePatterns": [
         "^com\\.fasterxml\\.jackson"
       ],
       "matchDatasources": ["maven"]
     },
     {
-      "groupName": "reactor",
+      "groupName": "io.projectreactor",
       "matchPackagePatterns": [
         "^io\\.projectreactor"
       ],
       "matchDatasources": ["maven"]
     },
     {
-      "groupName": "junit",
+      "groupName": "org.junit.jupiter",
       "matchPackagePatterns": [
         "^org\\.junit\\.jupiter"
       ],
       "matchDatasources": ["maven"]
     },
     {
-      "groupName": "resilience4j",
+      "groupName": "io.github.resilience4j",
       "matchPackagePatterns": [
         "^io\\.github\\.resilience4j"
       ],
       "matchDatasources": ["maven"]
     },
     {
-      "groupName": "jetbrains-kotlinx",
+      "groupName": "org.jetbrains.kotlinx",
       "matchPackagePatterns": [
         "^org\\.jetbrains\\.kotlinx"
       ],
