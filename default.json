@@ -10,7 +10,8 @@
     ":separateMultipleMajorReleases",
     ":combinePatchMinorReleases",
     ":pinVersions",
-    "github>twitch4j/renovate-config:java"
+    "github>twitch4j/renovate-config:java-group",
+    "github>twitch4j/renovate-config:java-javadocio"
   ],
   "labels": [
     "dependencies"

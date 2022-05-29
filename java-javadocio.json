@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "regexManagers": [
+    {
+      "datasourceTemplate": "maven",
+      "fileMatch": [
+        ".gradle$",
+        ".gradle.kts$"
+      ],
+      "matchStrings": [
+        "\"https:\/\/(?:www\\.)?javadoc.io\/doc\/(?<group>.*?)\/(?<name>.*?)\/(?<currentValue>.*?)\/?\""
+      ],
+      "depNameTemplate": "{{{group}}}:{{{name}}}"
+    }
+  ]
+}
