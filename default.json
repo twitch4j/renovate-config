@@ -11,7 +11,8 @@
     ":combinePatchMinorReleases",
     ":pinVersions",
     "github>twitch4j/renovate-config:java-group",
-    "github>twitch4j/renovate-config:java-javadocio"
+    "github>twitch4j/renovate-config:java-javadocio",
+    "github>twitch4j/renovate-config:java-gradle-prefer"
   ],
   "labels": [
     "dependencies"
