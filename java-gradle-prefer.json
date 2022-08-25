@@ -7,7 +7,7 @@
       ],
       "datasourceTemplate": "maven",
       "matchStrings": [
-        "// renovate: depName=(?<depName>.*?)\r?\n.*prefer(\"(?<currentValue>.*)\")"
+        "// renovate: depName=(?<depName>.*?)\r?\n.*prefer\\(\"(?<currentValue>.*)\"\\)"
       ]
     }
   ]
