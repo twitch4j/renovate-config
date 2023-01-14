@@ -25,5 +25,13 @@
   },
   "baseBranches": ["develop"],
   "branchPrefix": "chore/dependencies/",
-  "rebaseWhen": "behind-base-branch"
+  "rebaseWhen": "behind-base-branch",
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "semanticCommitType": "chore"
+    }
+  ]
 }
