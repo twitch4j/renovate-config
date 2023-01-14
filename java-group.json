@@ -67,6 +67,13 @@
         "^com\\.apollographql\\.apollo"
       ],
       "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "com.github.twitch4j",
+      "matchPackagePatterns": [
+        "^com\\.github\\.twitch4j"
+      ],
+      "matchDatasources": ["maven"]
     }
   ]
 }
