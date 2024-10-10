@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      "prBodyDefinitions": {
+        "Reproducible": "{{#if newVersion}}[![Reproducible Builds](https://img.shields.io/endpoint?url=https://jvm-rebuild.philippheuer.me/v1/badge/reproducible/maven/{{depName}}/{{{newVersion}}}?theme=renovate)](https://jvm-rebuild.philippheuer.me/v1/redirect/reproducible/maven/{{depName}}/{{{newVersion}}}){{/if}}"
+      },
+      "prBodyColumns": [
+        "Package",
+        "Change",
+        "Adoption",
+        "Passing",
+        "Reproducible"
+      ]
+    }
+  ]
+}
