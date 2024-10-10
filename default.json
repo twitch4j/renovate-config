@@ -13,7 +13,9 @@
     "github>twitch4j/renovate-config:java-group",
     "github>twitch4j/renovate-config:java-javadocio",
     "github>twitch4j/renovate-config:java-gradle-prefer",
-    "github>twitch4j/renovate-config:java-gradle-lombok"
+    "github>twitch4j/renovate-config:java-gradle-lombok",
+    "github>twitch4j/renovate-config:java-changelog",
+    "github>twitch4j/renovate-config:java-gradleplugin-sourceurl"
   ],
   "labels": [
     "dependencies"
