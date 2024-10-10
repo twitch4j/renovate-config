@@ -14,7 +14,7 @@
     {
       "matchDatasources": ["maven"],
       "matchPackageNames": ["org.junit:junit-bom"],
-      "changelogUrl": "https://junit.org/junit5/docs/5.11.0/release-notes/"
+      "changelogUrl": "https://junit.org/junit5/docs/current/release-notes/"
     },
     {
       "matchDatasources": ["maven"],
