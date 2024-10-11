@@ -1,0 +1,41 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": [
+        "me.philippheuer.configuration:me.philippheuer.configuration.gradle.plugin"
+      ],
+      "sourceUrl": "https://github.com/PhilippHeuer/gradle-projectconfiguration"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["io.freefair.gradle:lombok-plugin"],
+      "sourceUrl": "https://github.com/freefair/gradle-plugins"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": [
+        "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin"
+      ],
+      "sourceUrl": "https://github.com/JetBrains/kotlin"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": [
+        "org.jetbrains.dokka:org.jetbrains.dokka.gradle.plugin"
+      ],
+      "sourceUrl": "https://github.com/Kotlin/dokka"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["com.gradleup.shadow:shadow-gradle-plugin"],
+      "sourceUrl": "https://github.com/GradleUp/shadow"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["org.cyclonedx:cyclonedx-gradle-plugin"],
+      "sourceUrl": "https://github.com/CycloneDX/cyclonedx-gradle-plugin"
+    }
+  ]
+}

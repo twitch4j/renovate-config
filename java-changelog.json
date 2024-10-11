@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      "matchPackagePatterns": ["^org\\.apache\\.commons:commons-lang3"],
+      "changelogUrl": "https://github.com/apache/commons-lang/blob/master/RELEASE-NOTES.txt"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["commons-io:commons-io"],
+      "changelogUrl": "https://github.com/apache/commons-io/blob/master/RELEASE-NOTES.txt"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["org.junit:junit-bom"],
+      "sourceUrl": "https://github.com/junit-team/junit5",
+      "changelogUrl": "https://junit.org/junit5/docs/current/release-notes/"
+    },
+    {
+      "matchDatasources": ["maven"],
+      "matchPackageNames": ["com.google.guava:guava"],
+      "sourceUrl": "https://github.com/google/guava"
+    }
+  ]
+}
