@@ -16,11 +16,10 @@
     "github>twitch4j/renovate-config:java-gradle-prefer",
     "github>twitch4j/renovate-config:java-gradle-lombok",
     "github>twitch4j/renovate-config:java-changelog",
-    "github>twitch4j/renovate-config:java-gradleplugin-sourceurl"
+    "github>twitch4j/renovate-config:java-gradleplugin-sourceurl",
+    "github>twitch4j/renovate-config:ghaction-exclude"
   ],
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "vulnerabilityAlerts": {
     "labels": ["dependencies", "security"]
   },
@@ -32,9 +31,7 @@
   "rebaseWhen": "behind-base-branch",
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
+      "matchPackagePatterns": ["*"],
       "semanticCommitType": "chore"
     }
   ]
